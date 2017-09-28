@@ -1,0 +1,79 @@
+.primary-wrapper {
+    padding-right: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/* Content Area Styles */
+
+.page-content-wrapper {
+    padding: 15px;
+    width: 70%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.page-content-container {
+        padding: 50px 0;
+    }
+
+
+/* Sidebar Styles */
+
+.sidebar-wrapper {
+    position: fixed;
+	width: 30%;
+    right: -30%;
+    z-index: 1000;
+    overflow-y: unset;
+    margin-right: 0;
+    height: 100%;
+    background: #000000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/* Footer Styles */
+
+.footer {
+        height: 50px;
+        background-color: #000000;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .container-fluid {
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 0 15px;
+    }
+
+    .primary-wrapper {
+        padding-right: 0;
+    }
+	
+	.sidebar-wrapper {
+		right: 0;
+	}
+
+   .page-content-wrapper {
+        padding: 20px;
+        height: 100%;
+        position: relative;
+    }
+
+}
