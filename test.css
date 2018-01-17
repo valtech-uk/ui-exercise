@@ -1,0 +1,41 @@
+
+	body{
+		margin:0;
+		background-color:#fff;
+	}
+
+	#header{
+		width:100%;
+		height:50px;
+		text-align: center;
+	}
+
+	#main{
+		float:left;
+		width:70%;
+	}
+
+	#sidebar-right{
+		float:left;
+		width:30%;
+	}
+
+	#footer{
+		clear:both;
+		height: 50px;
+		width: 100%;
+		text-align: center;
+	}
+
+	#main, #sidebar-right{
+		min-height: 600px				
+	}				
+	
+	#mainbox{
+	  box-sizing: border-box;
+	  justify-content: space-between;
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+		
+	
