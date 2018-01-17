@@ -37,5 +37,84 @@
 	  display: flex;
 	  flex-wrap: wrap;
 	}
-		
 	
+	/* End of Layout */
+	
+	
+	img {
+	  width: 100%;
+	}
+
+	h1{
+	  font-weight: lighter;
+	}
+
+	p{
+	  margin: 10px;
+	  font-family: segoe ui;
+	  line-height: 1.4em;
+	  font-size: 1.2em;
+	}
+	
+	/*Car Layout */
+		
+	.card{	
+		flex: 1 0 30%;
+		box-sizing: border-box;
+		margin: 1rem .25em;
+		border: 1px solid gray;
+		min-height: 250px;
+	}
+			
+	.cardContent{
+		padding-left: 10px;
+	}
+		
+	/*End of Card Layout*/
+
+	/*Navigation bar*/
+	
+	ul.topnav {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	ul.topnav li {float: left;}
+
+	ul.topnav li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+	ul.topnav li a.active {background-color: #4CAF50;}
+
+	ul.topnav li.right {float: right;}
+	
+	/*End of Nav bar*/
+
+	@media screen and (max-width: 600px){
+		ul.topnav li.right, 
+		ul.topnav li {float: none;}
+		#header{ height: 150px;}
+	}
+	
+	@media screen and (min-width: 600px) {
+		.card {
+		   max-width: calc(50% -  1em);
+		}
+	}
+
+	
+	
+			
+			
+			
+			
