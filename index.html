@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Nehal Firdausi - UI Test</title>
+    <link href="stylesheets/test.css" rel="stylesheet"/>
+    <!-- Nehal comment - we should always minify our CSS  -->
+</head>
+<body>
+    <!-- Header - START -->
+    <header class="global-header">
+        <!-- Skip links added for Accessibility - START -->
+        <nav class="skip">
+            <ul>
+                <li><a href="#main-navigation" target="_self">Skip to site navigation</a></li>
+                <li><a href="#content" target="_self">Skip to content</a></li>
+                <li><a href="#footer" target="_self">Skip to footer</a></li>
+            </ul>
+        </nav>
+        <!-- Skip link added for Accessibility - END -->
+
+        <div class="branding">Logo</div>
+
+        <!-- Main navigation - START -->
+        <nav id="main-navigation" class="main-navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
+        <!-- Main navigation - END -->
+    </header>
+    <!-- Header - END -->
+
+    <!-- Main content - START -->
+    <main id="content" class="main">
+        <section class="main-section">
+            <h1 class="accessibility">Heading one</h1>
+        </section>
+        <aside class="secondary-section" id="sidebar-container">
+            <section>
+                <h2>Sidebar section</h2>
+            </section>
+        </aside>
+    </main>
+    <!-- Main content - END -->
+
+    <!-- Footer - START -->
+    <footer id="footer" class="footer">Footer goes here</footer>
+    <!-- Footer - END -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+    <script src="javascript/test.js"></script>
+    <!-- Nehal comment - we should always minify our JavaScript and reference at the bottom of the page to avoide render blocking issue -->
+</body>
+</html>
