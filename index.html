@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Nehal Firdausi - UI Test</title>
+    <link href="stylesheets/test.css" rel="stylesheet"/>
+    <!-- Nehal comment - we should always minify our CSS  -->
+</head>
+<body>
+    <!-- Header - START -->
+    <header class="global-header">
+        <!-- Skip links added for Accessibility - START -->
+        <nav class="skip">
+            <ul>
+                <li><a href="#main-navigation" target="_self">Skip to site navigation</a></li>
+                <li><a href="#content" target="_self">Skip to content</a></li>
+                <li><a href="#footer" target="_self">Skip to footer</a></li>
+            </ul>
+        </nav>
+        <!-- Skip link added for Accessibility - END -->
+
+        <div class="branding">Logo</div>
+
+        <!-- Main navigation - START -->
+        <nav id="main-navigation" class="main-navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
+        <!-- Main navigation - END -->
+    </header>
+    <!-- Header - END -->
+
+    <!-- Main content - START -->
+    <main id="content" class="main">
+        <section class="main-section">
+            <h1 class="accessibility">Heading one</h1>
+            <div class="info-grid">
+                <ul>
+                    <li>
+                        <figure>
+                            <!-- Nehal comment - I have not define the width and heigh to the images to make it responsive. -->
+                            <img class="img" src="images/vlisco.png" alt="we should have meaningful ALT text for Vlisco image" />
+                            <figcaption>
+                                <h2 class="title">Vlisco</h2>
+                                <p class="description">E-commerce with a colourful story</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img class="img" src="images/copenhagen-airports.png" alt="we should have meaningful ALT text for Copenhagen Airports image" />
+                            <figcaption>
+                                <h2 class="title">Copenhagen Airports</h2>
+                                <p class="description">Knowing your Customer in the Digital Age</p>
+                            </figcaption>
+                        </figure>
+                        
+                    </li>
+                    <li>
+                        <figure>
+                            <img class="img" src="images/tv-4-play.png" alt="we should have meaningful ALT text for TV4 Play image" />
+                            <figcaption>
+                                <h2 class="title">TV4 Play</h2>
+                                <p class="description">From TV channel to leading content provider</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img class="img" src="images/audi-city.png" alt="we should have meaningful ALT text for Audi City image" />
+                            <figcaption>
+                                <h2 class="title">Audi City</h2>
+                                <p class="description">How to purchase a real car in a virtual store</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img class="img" src="images/arla-foods.png" alt="we should have meaningful ALT text for Alra Foods image" />
+                            <figcaption>
+                                <h2 class="title">Alra Foods</h2>
+                                <p class="description">Dairy production in Big Data</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img class="img" src="images/xylem.png" alt="we should have meaningful ALT text for Xylem image" />
+                            <figcaption>
+                                <h2 class="title">Xylem</h2>
+                                <p class="description">Helping the world's largest water technology provider solve the global water crisis through Business Transformation</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <aside class="secondary-section" id="sidebar-container">
+            <section>
+                <h2>Sidebar section</h2>
+            </section>
+        </aside>
+    </main>
+    <!-- Main content - END -->
+
+    <!-- Footer - START -->
+    <footer id="footer" class="footer">Footer goes here</footer>
+    <!-- Footer - END -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+    <script src="javascript/test.js"></script>
+    <!-- Nehal comment - we should always minify our JavaScript and reference at the bottom of the page to avoide render blocking issue -->
+</body>
+</html>
